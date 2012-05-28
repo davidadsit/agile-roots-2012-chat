@@ -1,8 +1,8 @@
 var buster = require("buster")
 var sinon = require("sinon")
-var chat = require("chat")
-var ui = require("chatUi")
-var chatClient = require("chatClient")
+var chat = require("../lib/chat")
+var ui = require("../lib/chatUi")
+var chatClient = require("../lib/chatClient")
 
 buster.testCase("chat", {
   setUp: function() {
